@@ -33,6 +33,7 @@ public class RemoveLinkedListElement {
         while (current != null) {
             if (current.value == val) {
                 prev.next = current.next;
+                break;
             } else {
                 prev = current;
             }

@@ -1,6 +1,5 @@
+//https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1/?problemType=functional&page=2&company[]=Amazon&category[]=Linked%20List&query=problemTypefunctionalpage2company[]Amazoncategory[]Linked%20List
 package com.Practice;
-
-import org.w3c.dom.Node;
 
 public class FlatenLinkedList {
     class Node {
@@ -25,7 +24,6 @@ public class FlatenLinkedList {
                     child.next = current.next;
                     current.next.prev = child;
                 }
-                current.next = child;
                 current.next = current.child;
                 current.next.prev = current;
                 current.child = null;

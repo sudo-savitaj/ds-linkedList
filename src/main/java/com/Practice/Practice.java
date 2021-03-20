@@ -17,5 +17,6 @@ public class Practice {
 //        new RotateLinkedList().display();
 //        new SwapPairs();
 //        new DeleteDuplicateNode().display();
+//        new DeleteNodeWithoutHeadPointer();
     }
 }

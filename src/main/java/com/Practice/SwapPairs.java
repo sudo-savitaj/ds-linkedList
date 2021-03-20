@@ -1,3 +1,4 @@
+//https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1/?problemType=functional&page=1&company[]=Amazon&category[]=Linked%20List&query=problemTypefunctionalpage1company[]Amazoncategory[]Linked%20List
 package com.Practice;
 
 public class SwapPairs {

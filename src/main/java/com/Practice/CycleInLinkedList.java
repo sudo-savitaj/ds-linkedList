@@ -1,6 +1,6 @@
+//https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1/?problemType=functional&page=1&company[]=Amazon&category[]=Linked%20List&query=problemTypefunctionalpage1company[]Amazoncategory[]Linked%20List
+//https://www.youtube.com/watch?v=-YiQZi3mLq0
 package com.Practice;
-
-import org.w3c.dom.Node;
 
 public class CycleInLinkedList {
     public class Node {
@@ -19,16 +19,6 @@ public class CycleInLinkedList {
         int[] list = {3,2,0,-4};
         int pos = 1;
         createCycledLinkedList(list, pos);
-
-//        int counter = 0;
-//        Node tempNode = head;
-//        while (tempNode != null) {
-//            if (tempNode.value == 2) {
-//                counter++;
-//            }
-//            System.out.println(tempNode.value);
-//            tempNode = tempNode.next;
-//        }
 
         System.out.println(hasCycle(head));
         System.out.println(detectCycle(head).value);

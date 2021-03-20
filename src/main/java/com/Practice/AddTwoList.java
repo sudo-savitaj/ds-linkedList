@@ -18,7 +18,7 @@ public class AddTwoList {
         int[] list2 = {5,6,4};
         ListNode head2 = createCycledLinkedList(list2, pos);
 
-        ListNode head3 = addTwoNumbersNonReverse(head1,head2);
+        ListNode head3 = addTwoNumbers(head1,head2);
 
         ListNode tempNode = head3;
         while (tempNode != null){
